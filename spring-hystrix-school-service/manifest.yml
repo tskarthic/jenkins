@@ -6,4 +6,4 @@ applications:
   health-check-type: port
   stack: cflinuxfs2
   routes:
-  - route: spring-hystrix-school-service.cfapps.io
+  - route: spring-hystrix-school-service-719.cfapps.io
