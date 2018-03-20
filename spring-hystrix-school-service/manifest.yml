@@ -1,0 +1,9 @@
+---
+applications:
+- name: spring-hystrix-school-service
+  memory: 1024M
+  buildpack: java_buildpack
+  health-check-type: port
+  stack: cflinuxfs2
+  routes:
+  - route: spring-hystrix-school-service.cfapps.io
