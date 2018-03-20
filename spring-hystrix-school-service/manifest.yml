@@ -1,6 +1,6 @@
 ---
 instances: 1
 memory: 1G
-buildpack: https://github.com/cloudfoundry/java-buildpack.git#v3.19
+buildpack: https://github.com/cloudfoundry/java-buildpack.git
 applications:
 - name: spring-hystrix-school-service
