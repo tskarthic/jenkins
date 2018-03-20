@@ -1,9 +1,6 @@
 ---
+instances: 1
+memory: 1G
+buildpack: https://github.com/cloudfoundry/java-buildpack.git#v3.19
 applications:
 - name: spring-hystrix-school-service
-  memory: 2048M
-  buildpack: java_buildpack
-  health-check-type: port
-  stack: cflinuxfs2
-  routes:
-  - route: spring-hystrix-school-service-719.cfapps.io
