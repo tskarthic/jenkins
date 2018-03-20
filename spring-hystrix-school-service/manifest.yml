@@ -1,7 +1,7 @@
 ---
 applications:
 - name: spring-hystrix-school-service
-  memory: 1024M
+  memory: 2048M
   buildpack: java_buildpack
   health-check-type: port
   stack: cflinuxfs2
